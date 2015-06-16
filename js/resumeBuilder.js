@@ -11,7 +11,7 @@ var bio= {
 	skills: ["JAVA","JAVASCIPT","HTML", "CSS", "PHP", "SQL", "J2EE", "Servlet JSP", "JavaBeans", "Spring", "SpringMVC", "Struts", "Hibernate" ],
 	picture: "images/myPicture.jpg",
 	display:  function(){
-		$("#main").append(internationalizeButton);
+		//$("#main").append(internationalizeButton);
 		//Name and role
 		var formatedname = HTMLheaderName.replace("%data%", bio.name);
 		var formatedrole= HTMLheaderRole.replace("%data%", bio["role"]);
