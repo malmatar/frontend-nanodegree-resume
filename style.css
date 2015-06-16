@@ -247,3 +247,23 @@ span {
 		display: block;
 	}
 }
+
+@media only screen and (max-width: 650px) {
+	#mapDiv{
+		display: none;
+	}
+	#skills{
+		display: none;
+	}
+	.flex-box{
+		display: block;
+	}
+	ul.flex-box {
+  		animation: none;
+	}
+}
+
+
+
+
+
